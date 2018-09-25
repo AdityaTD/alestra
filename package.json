@@ -11,7 +11,7 @@
     "pm2:start-harmony": "pm2 start start.js --node-args=\"--experimental-modules --harmony\" --name=\"Smii\"",
     "pm2:start": "pm2 start start.js --node-args=\"--experimental-modules\" --name=\"Smii\"",
     "pm2:stop": "pm2 stop Smii",
-    "start": "node --experimental-modules src/Smii.mjs",
+    "start": "node --experimental-modules --experimental-worker src/Smii.mjs",
     "test": "eslint src",
     "update": "npm i"
   },
